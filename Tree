@@ -1,0 +1,25 @@
+Coinblend/
+│
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes.py
+│   └── payment_processor.py
+│
+├── crypto_clients/
+│   ├── __init__.py
+│   ├── crypto_client.py
+│   ├── bitcoin_client.py
+│   └── ethereum_client.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── secure_key_storage.py
+│
+├── tests/
+│   └── __init__.py
+│
+├── .env
+├── config.py
+├── requirements.txt
+└── run.py
